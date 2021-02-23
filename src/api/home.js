@@ -25,3 +25,8 @@ export const delRolesLevelMenu = (roleId, rightId) => Network.delete(`roles/${ro
 // 点击分配权限按钮显示分配权限
 export const getAssignPermiss = () => Network.get('rights/tree')
 export const postAssignPermiss = (id, data) => Network.post(`roles/${id}/rights/`, data)
+
+
+// goods-->cate
+export const getCateList = (obj) => Network.get('categories', obj)
+export const postCateItem = (data) => Network.post('categories', data)

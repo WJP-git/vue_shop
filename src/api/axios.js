@@ -1,6 +1,7 @@
 import axios from 'axios'
 // axios.defaults.baseURL = 'https://www.liulongbin.top:8888/api/private/v1/';
 axios.defaults.baseURL = 'http://www.ysqorz.top:8888/api/private/v1/';
+// axios.defaults.baseURL = 'http://timemeetyou.com:8889/api/private/v1/';
 axios.defaults.timeout = 5000
 
 axios.interceptors.request.use(config => {
